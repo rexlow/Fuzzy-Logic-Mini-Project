@@ -27,7 +27,7 @@ However, upon further inspection of the data, we reckoned that our data (which i
 Regardless, it is possible to run our work with MATLAB and expect results. Data is being loaded and parsed as numerical data. 80% of the data is used for training and the rest is used for testing.
 
 ### To run
-1. Make sure to point working directory to `fuzzy toolbox (MATLAB)` folder.
+1. Make sure to point working directory to `genfis3 (MATLAB)` folder.
 2. Open script by double clicking on `run.m` in the project directory menu.
 3. Press `⌘+enter` to run the script. A `2x8` figure will be generated to visualize FIS surface and membership functions for both input and output variables.
 4. Type `showrule(fis)` to show rules.
