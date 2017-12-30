@@ -32,3 +32,7 @@ Regardless, it is possible to run our work with MATLAB and expect results. Data 
 3. Press `⌘+enter` to run the script. A `2x8` figure will be generated to visualize FIS surface and membership functions for both input and output variables.
 4. Type `showrule(fis)` to show rules.
 5. Type `output = evalfis([1;1;1;3;1;1], fis)` to generate output.
+
+## 3. Rapidminer Neural Network
+
+In Rapidminer, data type of attributes are converted into numerical data for neural network modeling and class attribute is set as `label`. `Cross-Validation` applied to train and estimate the statistical performance of neural network model generated.
