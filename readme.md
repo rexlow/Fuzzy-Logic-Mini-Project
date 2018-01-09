@@ -22,7 +22,7 @@ With MATLAB GUI Fuzzy Toolbox, we defined membership functions for all 6 variabl
 
 Given separate sets of input and output data, `genfis3` generates a fuzzy inference system (FIS) using FCM clustering. With an appropriate set of numerical data, a FIS will be generated along with membership functions and rules. 
 
-However, upon further inspection of the data, we reckoned that our data (which is categorical data) tends to cluster really bad beyond counting duplicates. It is simply irrelavant to do fuzzy clustering on our dataset. As a result, our FCM produced a rather rigid calculation due to the nature of our data. We believe our work can be improved in the future by using an `Adaptive Neuro-Fuzzy Inference System (ANFIS)` as a classifier.
+However, upon further inspection of the data, we reckoned that our data (which is categorical data) tends to cluster really bad beyond counting duplicates. It is simply irrelevant to do fuzzy clustering on our dataset. As a result, our FCM produced a rather rigid calculation due to the nature of our data. We believe our work can be improved in the future by using an `Adaptive Neuro-Fuzzy Inference System (ANFIS)` as a classifier.
 
 Regardless, it is possible to run our work with MATLAB and expect results. Data is being loaded and parsed as numerical data. 80% of the data is used for training and the rest is used for testing.
 
@@ -31,7 +31,8 @@ Regardless, it is possible to run our work with MATLAB and expect results. Data 
 2. Open script by double clicking on `run.m` in the project directory menu.
 3. Press `⌘+enter` to run the script. A `2x8` figure will be generated to visualize FIS surface and membership functions for both input and output variables.
 4. Type `showrule(fis)` to show rules.
-5. Type `output = evalfis([1;1;1;3;1;1], fis)` to generate output.
+5. Type `fis.output.range` to view output range.
+6. Type `output = evalfis([2;3;1;2;1;3], fis)` to generate output.
 
 ## 3. Rapidminer Neural Network
 

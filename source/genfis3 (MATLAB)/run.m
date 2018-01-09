@@ -62,4 +62,4 @@ gensurf(fis)
 % showrule(fis)
 
 % test data
-% answer = evalfis([1;1;1;3;1;1], fis);
+answer = evalfis([2;3;1;2;1;3], fis);
